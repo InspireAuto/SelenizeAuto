@@ -16,6 +16,7 @@ public class HomeTestCase extends HomePage {
 	@Test
 	public void loginTC() {
 		enterCredentials();
+		System.out.println("Home Test cases");
 	}
 
 	@AfterTest
